@@ -14,7 +14,7 @@ No se pueden colocar signos de operaciones
 
 $numero = 100;
 $decimal = 27.9;
-$texto= "soy un texto";  
+$texto= "soy un text";  
 $verdadero = True;
 $texto2 = "Hola yo soy un numero que vale \" \n $numero ";//aplicando salto de linea, se muestra solo en consola, el navegador no lo reconoce//
 $texto3 = 'Hola soy un numero que vale'.$numero;
