@@ -16,13 +16,16 @@
        <p><input type="text" name="nombre" autofocus="autofocus" maxlength="10" minlength="4" pattern="[A-Z;a-z]+" required="required"></p> <br>
 
        <label for="apellido">Apellido:</label>
-       <p><input type="text" name="apellido" ></p> <br>
+       <p><input type="text" name="apellido" required="required" pattern="[A-Z;a-z]+"></p> <br>
 
        <label for="sexo">Sexo:</label>
        <p>
        Hombre: <input type="checkbox" name="sexo" value="Hombre">
        Mujer:  <input type="checkbox" name="sexo" value="Mujer" checked="cheked">
        </p> <br>
+
+       <label for="edad">Edad:</label>
+       <p><input type="number" name="edad"></p>
 
        <label for="color">Color:</label>
        <p><input type="color" name="color" ></p> <br>
@@ -43,7 +46,7 @@
        <p><input type="number" name="numero" ></p> <br>
 
        <label for="pass">Contraseña:</label>
-       <p><input type="password" name="pass" ></p> <br>
+       <p><input type="password" name="pass" minlength="7"  required="required" ></p> <br>
 
        <label for="radio">Continente:</label>
        <p>
@@ -58,7 +61,7 @@
        <label for="pass">Contraseña:</label>
        <p><input type="password" name="pass" ></p> <br>
 
-       <textarea name="" id="" cols="30" rows="10">Area</textarea> <br>
+       <textarea name="texto" id="" cols="30" rows="10" placeholder="Escribe algo" ></textarea> <br>
 
         Peliculas:
         <select name="peliculas" id="">
